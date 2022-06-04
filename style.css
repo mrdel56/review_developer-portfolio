@@ -13,12 +13,13 @@ img{
     
     margin-top: 10px;
 }
-section{
+.container-flexible{
     display: flex;
 }
 .half-width{
     width: 50%;
     padding-left: 100px;
+    padding-right: 100px;
 }
 .button{
     font-weight: 700;    
@@ -46,4 +47,20 @@ section{
     width: 50%;
     margin-top: 10px;
     padding-right: 100px;
+}
+.card{
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid orange;
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 100px;
 }
