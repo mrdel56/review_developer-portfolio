@@ -56,11 +56,24 @@ img{
     box-shadow: 10px 10px 40px gray;
     padding: 20px;
     border-radius: 10px;
-    border-left: 5px solid orange;
+    
+}
+.card-one{
+    border-left: 6px solid;
+    border-image: linear-gradient(coral, tomato);
+    border-image-slice: 1;
+}
+.card-two{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
 }
 .bottom-banner{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     margin-top: 100px;
+}
+footer p{
+    text-align: center;
 }
