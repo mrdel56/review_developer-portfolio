@@ -1,0 +1,40 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.del{
+    color: coral;
+}
+img{
+    width: 450px;
+    
+    margin-top: 10px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 100px;
+}
+.button{
+    font-weight: 700;
+    
+    background-image: linear-gradient(coral, tomato);
+    width: 120px;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+}
+.button a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
