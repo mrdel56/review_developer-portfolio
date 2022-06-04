@@ -21,11 +21,9 @@ section{
     padding-left: 100px;
 }
 .button{
-    font-weight: 700;
-    
-    background-image: linear-gradient(coral, tomato);
-    width: 120px;
-    padding: 10px;
+    font-weight: 700;    
+    background-image: linear-gradient(coral, tomato);    
+    padding: 12px 40px;
     border-radius: 12px;
     border: none;
 }
@@ -37,4 +35,15 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-banner{
+    margin-top: 100px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width-tow{
+    width: 50%;
+    margin-top: 10px;
+    padding-right: 100px;
 }
